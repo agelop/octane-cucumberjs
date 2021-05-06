@@ -1,0 +1,16 @@
+{
+  "name": "octane-cucumberjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f node_modules/cucumber-junit-formatter:output.xml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^6.0.5",
+    "cucumber-junit-formatter": "^0.2.2"
+  }
+}
