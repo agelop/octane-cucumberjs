@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="is-it-friday-yet?" tests="2" failures="1" skipped="0" errors="0" time="0.003">
-    <testcase classname="sunday-isn&apos;t-friday" name="Sunday isn&apos;t Friday" time="0.001">
+  <testsuite name="is-it-friday-yet?;sunday-isn&apos;t-friday" tests="3" failures="0" skipped="0" errors="0" time="0.002">
+    <properties>
+    </properties>
+    <testcase classname="today-is-sunday" name="today is Sunday" time="0.001">
     </testcase>
-    <testcase classname="friday-is-friday" name="Friday is Friday" time="0.002">
+    <testcase classname="i-ask-whether-it&apos;s-friday-yet" name="I ask whether it&apos;s Friday yet" time="0.000">
+    </testcase>
+    <testcase classname="i-should-be-told-&quot;nope&quot;" name="I should be told &quot;Nope&quot;" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="is-it-friday-yet?;friday-is-friday" tests="3" failures="1" skipped="0" errors="0" time="0.002">
+    <properties>
+    </properties>
+    <testcase classname="today-is-friday" name="today is Friday" time="0.000">
+    </testcase>
+    <testcase classname="i-ask-whether-it&apos;s-friday-yet" name="I ask whether it&apos;s Friday yet" time="0.000">
+    </testcase>
+    <testcase classname="i-should-be-told-&quot;nope&quot;" name="I should be told &quot;Nope&quot;" time="0.002">
       <failure message="AssertionError">AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
 
 &apos;TGIF&apos; !== &apos;Nope&apos;

@@ -1,4 +1,4 @@
 module.exports = {
-    default: `--format-options '{"snippetInterface": "synchronous", "scenarioAsStep" : true}'`
+    default: `--format-options '{"snippetInterface": "synchronous"}'`
 
   }
