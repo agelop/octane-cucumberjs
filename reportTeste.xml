@@ -2,6 +2,8 @@
 <testsuites>
   <testsuite name="domains-subscribervas-v1-dev" tests="19" failures="19" skipped="0" errors="0" time="0.000">
     <testcase classname="prepara-variáveis" name="Prepara variáveis" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set variable request_valido in global scope to ?msisdn=1191000000$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -9,6 +11,8 @@
   });</failure>
     </testcase>
     <testcase classname="realiza-um-get-síncrono-com-uma-request-correta---code-esperado-:-200" name="Realiza um GET síncrono com uma request correta - code esperado : 200" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to `json`$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -16,6 +20,8 @@
   });</failure>
     </testcase>
     <testcase classname="realiza-um-get-síncrono-com-uma-request-correta-com-accept-application/xml---code-esperado-:-200" name="Realiza um GET síncrono com uma request correta com accept application/xml - code esperado : 200" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to application/xml$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -23,6 +29,8 @@
   });</failure>
     </testcase>
     <testcase classname="realiza-um-get-síncrono-com-uma-request-correta-com-accept-multi-valorado--code-esperado-:-200" name="Realiza um GET síncrono com uma request correta com accept multi valorado- code esperado : 200" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to `multi_value`$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -30,6 +38,8 @@
   });</failure>
     </testcase>
     <testcase classname="realiza-um-get-síncrono-com-uma-request-correta-com-accpet-application/xml---code-esperado-:-200" name="Realiza um GET síncrono com uma request correta com accpet application/xml - code esperado : 200" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to `xml`$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -37,6 +47,8 @@
   });</failure>
     </testcase>
     <testcase classname="realiza-um-get-síncrono-com-uma-request-correta-com-accept-nulo--code-esperado-:-200" name="Realiza um GET síncrono com uma request correta com accept nulo- code esperado : 200" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Client_Auth` header to `basicAuth`$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -44,6 +56,8 @@
   });</failure>
     </testcase>
     <testcase classname="realizar-uma-requisição-options-para-validar-os-headers-de-cors---code-esperado-:-200" name="Realizar uma requisição OPTIONS para validar os headers de CORS - code esperado : 200" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Client_Auth` header to `basicAuth`$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -51,6 +65,8 @@
   });</failure>
     </testcase>
     <testcase classname="realizar-um-get-síncrono-com-uma-request-inválida---code-esperado-:-400" name="Realizar um GET síncrono com uma request inválida - code esperado : 400" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to application/json$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -58,6 +74,8 @@
   });</failure>
     </testcase>
     <testcase classname="realizar-um-get-síncrono-com-um-request-correto-sem-autenticação---code-esperado-:-401" name="Realizar um GET síncrono com um request correto sem autenticação - code esperado : 401" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to application/json$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -65,6 +83,8 @@
   });</failure>
     </testcase>
     <testcase classname="realizar-um-get-síncrono-com-um-request-correto-com-uma-chave-invalida---code-esperado-:-403" name="Realizar um GET síncrono com um request correto com uma chave invalida - code esperado : 403" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to application/json$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -72,6 +92,8 @@
   });</failure>
     </testcase>
     <testcase classname="realizar-um-get-síncrono-com-um-request-correto-para-uma-url-não-existente---code-esperado-:-404" name="Realizar um GET síncrono com um request correto para uma URL não existente - code esperado : 404" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to application/json$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -79,6 +101,8 @@
   });</failure>
     </testcase>
     <testcase classname="realiza-um-post-síncrono---code-esperado-:-405" name="Realiza um POST síncrono - code esperado : 405" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set body to `request_valido_405`$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -86,6 +110,8 @@
   });</failure>
     </testcase>
     <testcase classname="realiza-um-put-síncrono---code-esperado-:-405" name="Realiza um PUT síncrono - code esperado : 405" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set body to `request_valido_405`$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -93,6 +119,8 @@
   });</failure>
     </testcase>
     <testcase classname="realiza-um-delete-síncrono---code-esperado-:-405" name="Realiza um DELETE síncrono - code esperado : 405" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to application/json$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -100,6 +128,8 @@
   });</failure>
     </testcase>
     <testcase classname="realiza-um-get-síncrono-com-uma-request-correta-e-com-header-accept-inválida--code-esperado-:-406" name="Realiza um GET síncrono com uma request correta e com header Accept inválida- code esperado : 406" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to `text`$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -107,6 +137,8 @@
   });</failure>
     </testcase>
     <testcase classname="realiza-um-get-síncrono-com-com-uma-request-correta---code-esperado-:-408" name="Realiza um GET síncrono com com uma request correta - code esperado : 408" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to application/json$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -114,6 +146,8 @@
   });</failure>
     </testcase>
     <testcase classname="realiza-um-get-síncrono-com-com-uma-request-correta---code-esperado-:-409" name="Realiza um GET síncrono com com uma request correta - code esperado : 409" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to application/json$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -121,6 +155,8 @@
   });</failure>
     </testcase>
     <testcase classname="realizar-vários-get-síncronos-com-um-request-correto-até-estourar-a-quota---code-esperado-:-429" name="Realizar vários GET síncronos com um request correto até estourar a quota - code esperado : 429" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to application/json$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
@@ -128,6 +164,8 @@
   });</failure>
     </testcase>
     <testcase classname="realiza-um-get-síncrono-com-com-uma-request-valida-com-erro-interno---code-esperado-:-500" name="Realiza um GET síncrono com com uma request valida com erro interno - code esperado : 500" time="0.000">
+          <properties>
+      </properties>
       <failure message="Undefined step. Implement with the following snippet:">Undefined step. Implement with the following snippet:
   Given(/^I set `tipo_header_Accept` header to application/json$/, function(callback) {
       // Write code here that turns the phrase above into concrete actions
